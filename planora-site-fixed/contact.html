@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Contact Planora — support, billing and feedback</title>
+<meta name="description" content="Contact the Planora team about product questions, billing, bug reports, feature requests or privacy and data requests.">
+<link rel="canonical" href="https://planora.app/contact.html">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#faf9f6">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Planora">
+<meta property="og:title" content="Contact Planora — support, billing and feedback">
+<meta property="og:description" content="Contact the Planora team about product questions, billing, bug reports, feature requests or privacy and data requests.">
+<meta property="og:url" content="https://planora.app/contact.html">
+<meta property="og:image" content="https://planora.app/assets/img/og.png">
+<meta property="og:image:alt" content="Planora — AI-assisted task planning">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Contact Planora — support, billing and feedback">
+<meta name="twitter:description" content="Contact the Planora team about product questions, billing, bug reports, feature requests or privacy and data requests.">
+<meta name="twitter:image" content="https://planora.app/assets/img/og.png">
+<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/img/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;450;500;550;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+<header class="m-nav">
+  <div class="container">
+    <div class="m-nav-inner">
+      <a href="index.html" class="brand" aria-label="Planora home"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 19V5.6c0-.4.4-.7.8-.6l7 2.1c.4.1.7.5.7.9V21c0 .4-.5.7-.9.5l-6.8-2.1a1 1 0 0 1-.8-1Z" fill="currentColor" opacity=".95"/><path d="M20 19V5.6c0-.4-.4-.7-.8-.6l-7 2.1a1 1 0 0 0-.7.9V21c0 .4.5.7.9.5l6.8-2.1a1 1 0 0 0 .8-1Z" fill="currentColor" opacity=".55"/></svg></span>Planora<span class="brand-dot">.</span></a>
+      <nav class="m-links" aria-label="Main"><a href="index.html">Home</a><a href="features.html">Features</a><a href="index.html#how-it-works">How It Works</a><a href="pricing.html">Pricing</a><a href="faq.html">FAQ</a></nav>
+      <div class="m-actions">
+        <button class="btn btn-icon btn-ghost" data-theme-toggle aria-label="Toggle dark mode" data-theme-icon></button>
+        <a class="btn btn-ghost btn-outline-desktop" href="login.html">Log in</a>
+        <a class="btn btn-primary" href="signup.html">Get Started Free</a>
+        <button class="btn btn-icon btn-ghost m-burger" data-burger aria-label="Open menu" aria-expanded="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</header>
+<div class="m-drawer" id="mobile-menu">
+  <a class="m-drawer-link" href="index.html">Home</a><a class="m-drawer-link" href="features.html">Features</a><a class="m-drawer-link" href="index.html#how-it-works">How It Works</a><a class="m-drawer-link" href="pricing.html">Pricing</a><a class="m-drawer-link" href="faq.html">FAQ</a>
+  <div class="m-drawer-actions">
+    <a class="btn btn-outline btn-lg" href="login.html">Log in</a>
+    <a class="btn btn-primary btn-lg" href="signup.html">Get Started Free</a>
+  </div>
+</div>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Home</a> / <span>Contact</span></div>
+    <h1 class="display" style="font-size:clamp(2.1rem,4vw,3.1rem)">Get in touch</h1>
+    <p class="lede">Product questions, billing problems, bug reports or feature requests — this form reaches the people who build Planora.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="max-width:920px">
+    <div class="ai-grid" style="align-items:start;gap:44px">
+      <form class="card card-pad" id="contact-form" novalidate>
+        <div class="stack gap-14">
+          <div class="field"><label class="label" for="c-name">Your name</label>
+            <input class="input" id="c-name" name="name" autocomplete="name" placeholder="Maya Chen" required></div>
+          <div class="field"><label class="label" for="c-email">Email address</label>
+            <input class="input" id="c-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required>
+            <span class="hint">We reply to this address — please check it is correct.</span></div>
+          <div class="field"><label class="label" for="c-subject">Subject</label>
+            <select class="select" id="c-subject" name="subject" required>
+              <option value="">Choose a topic…</option>
+              <option>Product question</option>
+              <option>Billing or subscription</option>
+              <option>Report a problem</option>
+              <option>Feature request</option>
+              <option>Privacy or data request</option>
+              <option>Something else</option>
+            </select></div>
+          <div class="field"><label class="label" for="c-message">Message</label>
+            <textarea class="textarea" id="c-message" name="message" rows="6" placeholder="Tell us what is going on…" required></textarea></div>
+          <div id="contact-status" class="hide" role="status" aria-live="polite"></div>
+          <button class="btn btn-primary" type="submit">Send message <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+          <p class="hint">By sending this you agree we may reply to the address above. This form is not for urgent data-deletion requests — use Settings → Account inside the app for that.</p>
+        </div>
+      </form>
+      <div class="stack gap-16">
+        <div class="card card-pad">
+          <div class="row gap-12"><span class="icon-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3.5 6.5 8.5 6 8.5-6"/></svg></span><div><h3 class="card-title">Email</h3><p class="small muted">support@planora.app</p></div></div>
+          <p class="small muted" style="margin-top:12px;line-height:1.6">Replace this address in <span class="kbd">assets/js/config.js</span> and in this page before launch, or connect the form to your support inbox.</p>
+        </div>
+        <div class="card card-pad">
+          <div class="row gap-12"><span class="icon-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span><div><h3 class="card-title">Response time</h3><p class="small muted">Usually within two business days.</p></div></div>
+        </div>
+        <div class="card card-pad">
+          <div class="row gap-12"><span class="icon-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 4 5v6c0 5 3.4 9.3 8 11 4.6-1.7 8-6 8-11V5l-8-3Z"/><path d="m9 12 2 2 4-4"/></svg></span><div><h3 class="card-title">Account issues</h3><p class="small muted">Password reset and account deletion are handled inside the app.</p></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="m-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col footer-brand">
+        <a href="index.html" class="brand" aria-label="Planora home">
+          <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none">
+          <path d="M4 19V5.6c0-.4.4-.7.8-.6l7 2.1c.4.1.7.5.7.9V21c0 .4-.5.7-.9.5l-6.8-2.1a1 1 0 0 1-.8-1Z" fill="currentColor" opacity=".95"/>
+          <path d="M20 19V5.6c0-.4-.4-.7-.8-.6l-7 2.1a1 1 0 0 0-.7.9V21c0 .4.5.7.9.5l6.8-2.1a1 1 0 0 0 .8-1Z" fill="currentColor" opacity=".55"/>
+          </svg></span>Planora<span class="brand-dot">.</span>
+        </a>
+        <p>Plan your work, protect your time. A calmer place for tasks, deadlines and the schedules that actually hold up.</p>
+      </div>
+      <div class="footer-col"><h4>Product</h4><a href="features.html">Features</a><a href="pricing.html">Pricing</a><a href="ai-planner.html">AI Planner</a><a href="features.html#included">What's Included</a></div><div class="footer-col"><h4>Company</h4><a href="about.html">About Planora</a><a href="contact.html">Contact</a></div><div class="footer-col"><h4>Support</h4><a href="help.html">Help Center</a><a href="faq.html">FAQ</a><a href="contact.html?subject=problem">Report a Problem</a></div><div class="footer-col"><h4>Legal</h4><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a><a href="cookies.html">Cookie Policy</a></div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year>2025</span> Planora. All rights reserved.</span>
+      <span>Built for people with more to do than hours to do it in.</span>
+    </div>
+  </div>
+</footer>
+<script src="/assets/js/config.js"></script>
+<script src="/assets/js/storage.js"></script>
+<script src="/assets/js/auth.js"></script>
+<script src="/assets/js/ui.js"></script>
+</body>
+</html>

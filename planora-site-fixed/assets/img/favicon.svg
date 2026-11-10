@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" role="img" aria-label="Planora">
+  <rect width="32" height="32" rx="8" fill="#0F7B62"/>
+  <g fill="#ffffff">
+    <path d="M7 24V9.2c0-.5.5-.9 1-.8l7 2.1c.5.2.9.7.9 1.2V26c0 .6-.6 1-1.1.8l-6.8-2.2c-.6-.2-1-.7-1-1.2Z" opacity=".98"/>
+    <path d="M25 24V9.2c0-.5-.5-.9-1-.8l-7 2.1c-.5.2-.9.7-.9 1.2V26c0 .6.6 1 1.1.8l6.8-2.2c.6-.2 1-.7 1-1.2Z" opacity=".6"/>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+# Planora — https://planora.app
+User-agent: *
+Allow: /
+Disallow: /app.html
+Disallow: /login.html
+Disallow: /signup.html
+Disallow: /reset-password.html
+Disallow: /forgot-password.html
+Disallow: /verify-email.html
+Disallow: /404.html
+
+Sitemap: https://planora.app/sitemap.xml

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Dashboard — Planora</title>
+<meta name="description" content="Your private Planora workspace.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#faf9f6">
+<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;450;500;550;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+<div class="app">
+  <aside class="sidebar" id="sidebar" aria-label="Primary navigation">
+    <div class="side-head">
+      <a href="app.html#/dashboard" class="brand" aria-label="Planora">
+        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none">
+          <path d="M4 19V5.6c0-.4.4-.7.8-.6l7 2.1c.4.1.7.5.7.9V21c0 .4-.5.7-.9.5l-6.8-2.1a1 1 0 0 1-.8-1Z" fill="currentColor" opacity=".95"/>
+          <path d="M20 19V5.6c0-.4-.4-.7-.8-.6l-7 2.1a1 1 0 0 0-.7.9V21c0 .4.5.7.9.5l6.8-2.1a1 1 0 0 0 .8-1Z" fill="currentColor" opacity=".55"/>
+        </svg></span>Planora<span class="brand-dot">.</span>
+      </a>
+      <button class="btn btn-icon btn-ghost mobile-only" id="side-close" aria-label="Close menu">&#10005;</button>
+    </div>
+    <nav class="side-nav" id="side-nav"></nav>
+    <div class="side-foot" id="side-foot"></div>
+  </aside>
+  <div class="sidebar-scrim" id="scrim"></div>
+
+  <div class="app-main">
+    <header class="topbar">
+      <button class="btn btn-icon btn-ghost mobile-only" id="menu-btn" aria-label="Open menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+      <div style="min-width:0">
+        <h1 id="page-title">Dashboard</h1>
+        <div class="sub" id="page-sub"></div>
+      </div>
+      <div class="top-actions">
+        <div id="verify-chip"></div>
+        <button class="btn btn-icon btn-ghost" id="theme-btn" aria-label="Toggle dark mode"></button>
+        <div style="position:relative">
+          <button class="btn btn-icon btn-ghost" id="notif-btn" aria-label="Notifications" aria-expanded="false"></button>
+          <div id="notif-slot"></div>
+        </div>
+        <button class="btn btn-primary btn-sm" id="add-task-btn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+          <span class="hide-sm">Add task</span>
+        </button>
+      </div>
+    </header>
+    <main class="view" id="view" tabindex="-1"></main>
+  </div>
+</div>
+
+<nav class="bottom-nav" id="bottom-nav" aria-label="Quick navigation"></nav>
+<div class="toasts"></div>
+
+<script src="/assets/js/config.js"></script>
+<script src="/assets/js/storage.js"></script>
+<script src="/assets/js/auth.js"></script>
+<script src="/assets/js/ui.js"></script>
+<script src="/assets/js/planner.js"></script>
+<script src="/assets/js/app.js"></script>
+<script src="/assets/js/calendar.js"></script>
+<script src="/assets/js/planview.js"></script>
+<script src="/assets/js/settings.js"></script>
+</body>
+</html>

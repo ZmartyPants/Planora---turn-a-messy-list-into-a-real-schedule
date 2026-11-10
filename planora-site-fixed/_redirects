@@ -1,0 +1,15 @@
+# Planora — clean URLs. Deployed as /_redirects, honoured by Netlify.
+/pricing        /pricing.html        301
+/features       /features.html       301
+/faq            /faq.html            301
+/ai-planner     /ai-planner.html     301
+/about          /about.html          301
+/contact        /contact.html        301
+/help           /help.html           301
+/privacy        /privacy.html        301
+/terms          /terms.html          301
+/cookies        /cookies.html        301
+/login          /login.html          301
+/signup         /signup.html         301
+/app            /app.html            301
+/dashboard      /app.html#/dashboard 301
